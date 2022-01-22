@@ -1,5 +1,4 @@
-<div class="row">
-    <div class="col-lg-6">
+
         <div class="container mt-3">
             <div id="map"></div>
             <script>
@@ -18,5 +17,4 @@
                 <?php endforeach; ?>
             </script>
         </div>
-    </div>
-</div>
+    
