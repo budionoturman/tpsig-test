@@ -19,6 +19,15 @@ class Wisata extends Controller{
         $this->view('templates/footer');
     }
 
+    public function tambahData()
+    {
+        $data['judul'] = 'Tambah Data';
+        //$data = $this->model('Wisata_model')->tambahDataWisata($_POST)
+        $this->view('templates/header',$data);
+        $this->view('wisata/tambahData',);
+        $this->view('templates/footer');
+    }
+
     public function tambah()
     {
         if( $this->model('Wisata_model')->tambahDataWisata($_POST) > 0 ){
@@ -31,6 +40,7 @@ class Wisata extends Controller{
             exit;
         }
     }
+    
     public function hapus($id)
     {
         if( $this->model('Wisata_model')->hapusDataWisata($id) > 0 ){

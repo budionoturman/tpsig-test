@@ -1,6 +1,6 @@
 <?php
 
-define('BASEURL','http://localhost/tpsig-test/public');
+define('BASEURL','http://localhost/tpsig-1/public');
 
 // Database
 define ('DB_HOST', 'localhost');

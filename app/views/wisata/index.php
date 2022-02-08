@@ -8,7 +8,7 @@
 
     <div class="row mt-3">
         <div class="col-lg-6">
-            <button type="button" class="btn btn-primary tombolTambahData " data-bs-toggle="modal" data-bs-target="#formModal">Tambah Data Wisata</button>
+            <a href="<?= BASEURL;?>/wisata/tambahData" class="btn btn-primary tombolTambahData"> Tambah Data Wisata</a>
         </div>
     </div>
     <div class="row mt-4">

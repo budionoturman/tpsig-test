@@ -10,12 +10,12 @@ $(function() {
         
         $('#formModalLabel').html('Ubah Data Wisata');
         $('.modal-footer button[type=submit]').html('Ubah Data');
-        $('.modal-body form').attr('action','http://localhost/tpsig/public/wisata/ubah');
+        $('.modal-body form').attr('action','http://localhost/tpsig-1/public/wisata/ubah');
 
         const id = $(this).data('id');
         
         $.ajax({
-            url: 'http://localhost/tpsig/public/wisata/getubah',
+            url: 'http://localhost/tpsig-1/public/wisata/getubah',
             data: {id : id},
             method: 'post',
             dataType: 'json',

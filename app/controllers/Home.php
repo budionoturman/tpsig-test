@@ -1,7 +1,7 @@
 <?php
 
 class Home extends Controller{
-    public function index($nama1='Eko', $nama2='Turman')
+    public function index()
     {
         $data['judul'] = 'Peta Wisata';
         $data['wst'] = $this->model('Wisata_model')->getAllWisata();
